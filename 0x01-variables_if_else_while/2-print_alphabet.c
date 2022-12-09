@@ -2,7 +2,6 @@
 #include <ctype.h>
 /**
 *main - Program to print alphabet letter followed by new line
-*
 *Return: return 0
 *ltr==letter
 */
