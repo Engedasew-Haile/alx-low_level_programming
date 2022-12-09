@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * *main - entry point of programs*
- * */
+/**
+*main - entry point of programs
+*
+*Return: return 0
+*/
 
 int main ()
 {
@@ -21,5 +23,5 @@ printf("%d is positive\n", n);
 }
 else
 printf("%d is zero\n", n);
-return 0;
+return (0);
 }
