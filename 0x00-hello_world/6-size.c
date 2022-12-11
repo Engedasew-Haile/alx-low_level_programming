@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - print type
- *
  * return: 0 if 
  */
-
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
