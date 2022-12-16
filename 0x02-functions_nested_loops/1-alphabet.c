@@ -3,15 +3,15 @@
  * main - entry point
  *
  * Return: 0 always
- */	
-        
-	void print_alphabet(void)
+ */
+void print_alphabet(void)
 {
-	int letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
+	int j;
+
+	for (j = 'a'; j <= 'z'; j++)
 	{
-	_putchar (letter);
+	_putchar (j);
 	}
-	_putchar (9);
+	_putchar ('\n');
 	return (0);
 }
