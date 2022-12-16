@@ -4,22 +4,14 @@
  *
  * Return: 0 always
  */	
-        void ft_putchar(char c) {write(STDOUT_FILENO, &C, 1); }
-
-	void ft_print_alphabet(void)
+        
+	void print_alphabet(void)
 {
-	char letter;
-
-	letter = 'a';
-	while (letter <= 'z')
+	int letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	ft_putchar(letter);
-	letter++;
+	_putchar (letter);
 	}
-}
-	
-	int main(void)
-{
-	ft_print_alphabet();
+	_putchar (9);
 	return (0);
 }
