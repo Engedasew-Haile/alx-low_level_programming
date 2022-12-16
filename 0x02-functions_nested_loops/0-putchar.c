@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: 0 always 
+ *main - entry point
+ *Return: 0
  */
 int main(void)
 {
-	char ch[12] = "AlxSESchool";
+	char ch[12] = "alxschool";
 	int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i <= 12; i++)
 	{
 		_putchar(ch)[i];
 	}
