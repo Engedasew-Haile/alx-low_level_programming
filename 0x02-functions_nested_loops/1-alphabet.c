@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * print_alphabet -> print lowercase alphabet
+ * print_alphabet(void) -> print the lowercase alphabets
  */
 void print_alphabet(void)
 {
