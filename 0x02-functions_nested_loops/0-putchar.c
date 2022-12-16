@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-	char ch[12] = "alxschool";
-	int i;
-
-	for (i = 0; i <= 12; i++)
+	char ch;
+	
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		_putchar(ch)[i];
+		putchar(ch);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
