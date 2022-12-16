@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char school[10] = "_putchar";
+	char ch[12] = "AlxSESchool";
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(school)[i];
+		_putchar(ch)[i];
 	}
-	_putchar(10);
+	_putchar('\n');
 	return (0);
 }
