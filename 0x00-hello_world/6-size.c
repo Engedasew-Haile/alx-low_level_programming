@@ -9,7 +9,8 @@ int main(void)
 	printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(int));
 	printf("Size of float: %d byte(s)\n", (unsigned long)sizeof(float));
 	printf("Size of long int: %d byte(s)\n", (unsigned long)sizeof(long int));
-	printf("long long int %d byte(s)\n", (unsigned long)sizeof(long long int));
+	printf("Signed char: %d byte(s)\n", (unsigned long)sizeof(signed char));
+	printf("long long int: %d byte(s)\n", (unsigned long)sizeof(long long int));
 
 	return (0);
 }
