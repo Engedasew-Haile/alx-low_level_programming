@@ -1,12 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * print_alphabet(void) -> print the lowercase alphabets
- *
- *  Description: the program's 
+ * Return: Always 0.
  */
-void print_alphabet(void)
+void print_alphabet(void) /*will print lowercase */
 {
 	int j;
 
@@ -15,4 +13,5 @@ void print_alphabet(void)
 	putchar (j);
 	}
 	putchar ('\n');
+	return (0);
 }
