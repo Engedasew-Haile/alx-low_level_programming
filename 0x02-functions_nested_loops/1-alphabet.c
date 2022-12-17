@@ -3,6 +3,8 @@
  * main - entry point
  *
  * print_alphabet(void) -> print the lowercase alphabets
+ *
+ *  Description: the program's 
  */
 void print_alphabet(void)
 {
