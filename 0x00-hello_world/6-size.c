@@ -11,6 +11,5 @@ int main(void)
 	printf("Size of long int: %d byte(s)\n", (unsigned long)sizeof(long int));
 	printf("Signed char: %d byte(s)\n", (unsigned long)sizeof(signed char));
 	printf("long long int: %d byte(s)\n", (unsigned long)sizeof(long long int));
-
 	return (0);
 }
