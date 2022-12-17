@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * _isalpha - a fun that check for alph char
- * @c: single letter intake
- * Return: 1 if c is a loer or uppercase, 0 otherwise
+ * _isalpha - a function that check for alphabetic character
+ * @c: single letter in take
+ * Return: 1 if c is a letter (lower or uppercase), 0 otherwise
  */
 int _isalpha(int c)
 {
