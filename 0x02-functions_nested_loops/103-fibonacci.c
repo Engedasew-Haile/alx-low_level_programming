@@ -18,6 +18,6 @@ int main(void)
 		j += i;
 		i = k;
 	}
-	printf("%d\n", total);
+	printf("%d\n", tot);
 	return (0);
 }
