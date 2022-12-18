@@ -6,9 +6,10 @@
 
 inat main(void)
 {
-	int j;
+	int i;
 
-	j = 0;
-	positive_or_negative(j);
+	i = 98;
+	positive_or_negative(i);
+
 	return (0);
 }
