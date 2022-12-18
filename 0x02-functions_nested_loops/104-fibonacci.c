@@ -8,7 +8,7 @@
 int main(void)
 {
 	unsigned long int r1 = 0, k1 = 1, r2 = 0, k2 = 2;
-	unsigned long int hold1, hold2, hold3;
+	unsigned long int d1, d2, d3;
 	int count;
 
 	printf("%lu, %lu, ", k1, k2);
