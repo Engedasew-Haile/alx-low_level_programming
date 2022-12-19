@@ -1,3 +1,5 @@
+0x05. C - Pointers, arrays and strings
+
 Requirements
 General
 Allowed editors: vi, vim, emacs
