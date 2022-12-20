@@ -3,6 +3,7 @@
 /**
  * print_rev - print a string in rev
  * @s: string to be reserved
+ * Return: sth
  */
 void print_rev(char *s)
 {
