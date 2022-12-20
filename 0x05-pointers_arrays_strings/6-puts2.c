@@ -6,9 +6,9 @@
  */
 void puts2(char *str)
 {
-	int j, lng = 0;
+	int j, lng;
 
-	while (str[j])
+	while (str[j++])
 		lng++;
 
 	for (j = 0; j < lng; j+= 2)
