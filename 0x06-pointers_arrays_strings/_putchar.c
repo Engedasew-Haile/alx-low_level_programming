@@ -5,7 +5,7 @@
  * @c: The char to print
  *
  * Return: Always 0.
- * On error, -1 is returned, and errno is set properly.
+ * On error, -1 is returned, and errno is set properly
  */
 int _putchar(char c)
 {
