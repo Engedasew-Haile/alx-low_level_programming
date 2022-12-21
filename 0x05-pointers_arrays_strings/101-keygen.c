@@ -24,11 +24,14 @@ unsigned long checksum(char *s)
  */
 int main(void)
 {
-	char alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwx";
+
+	//char alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwx";
+	char alpha[];
 	char s[35];
 	unsigned long sum;
 	int i, flag = 0;
 
+	alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwx";
 	srand(time(NULL));
 	while (flag == 0)
 	{
