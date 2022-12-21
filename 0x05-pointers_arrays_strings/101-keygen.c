@@ -25,9 +25,9 @@ unsigned long checksum(char *s)
 int main(void)
 {
 
-	//char alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwx";
+	/*char alpha[] = BCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwx;*/
 	char alpha[];
-	char s[35];
+	char s[33];
 	unsigned long sum;
 	int i, flag = 0;
 
@@ -35,7 +35,7 @@ int main(void)
 	srand(time(NULL));
 	while (flag == 0)
 	{
-		for (i =0; i < 35; i++)
+		for (i =0; i < 33; i++)
 	
 	s[i] = '\0';
 	sum = checksum(s);
