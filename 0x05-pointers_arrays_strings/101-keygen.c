@@ -24,7 +24,7 @@ unsigned long checksum(char *s)
  */
 int main(void)
 {
-	char alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwxyzabcdefghijklmno";
+	char alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwx";
 	char s[35];
 	unsigned long sum;
 	int i, flag = 0;
