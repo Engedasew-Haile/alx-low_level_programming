@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * checksum - run checksum
+ * @s: input char
+ * Return: checksum
+ */
+unsigned long checksum(char *s)
+{
+	unsigned long sum = 0;
+
+	while (*s != 0)
+	{
+		sum += *s;
+		s++;
+	}
+	return (sum);
+}
+/**
+ * main - prints passkey for crakme
+ * Return: 0 always
+ */
+int main(void)
+{
+	char alpha[] = "ABCDEFGHIJKLMNOPQSTUVWXYZpqrstuvwxyzabcdefghijklmno";
+	char s[35];
+	unsigned long sum;
+	int i, flag = 0;
+
+	srand(time(NULL));
+	while (flag == 0)
+	{
+		for (i =0; i < 35; i++)
+	
+	s[i] = '\0';
+	sum = checksum(s);
+	if (sum == 2772)
+	{
+		flag = 1;
+		printf("%s", s);
+	}
+	}
+	return (0);
+}
