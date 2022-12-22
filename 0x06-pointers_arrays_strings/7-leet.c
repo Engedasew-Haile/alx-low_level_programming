@@ -20,7 +20,7 @@ char *leet(char *s)
 					*(s + j) = y[k];
 				}
 			}
-	j++;
+			j++;
 	}
 	return (s);
 }
