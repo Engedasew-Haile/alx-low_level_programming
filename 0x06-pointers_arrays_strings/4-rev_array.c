@@ -19,4 +19,5 @@ void reverse_array(int *a, int n)
 		start_point++;
 		end--;
 	}
+	return (0);
 }
