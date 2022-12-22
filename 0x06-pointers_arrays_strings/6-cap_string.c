@@ -24,12 +24,12 @@ char *cap_string(char *s)
 				{
 					if (x[k] == *(s + j - 1))
 					{
-						*(s + k) = *(s + j) - 32;
+						*(s + j) = *(s + j) - 32;
 					}
 				}
 			}
 		}
-		j++;
+	j++;
 	}
 	return (s);
 }
