@@ -17,7 +17,7 @@ char *leet(char *s)
 			{
 				if (*(s + j) == x[k])
 				{
-					*(s + j) = y[k];
+					(*(s + j) = y[k]);
 				}
 			}
 			j++;
