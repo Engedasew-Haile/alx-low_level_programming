@@ -9,10 +9,10 @@ void reverse_array(int *a, int n)
 	int swap, start, end;
 
 	start = 0;
-	end = n -1;
-	while (start < and)
+	end = n - 1;
+	while (start < end)
 	{
-		swap = *(a +start);
+		swap = *(a + start);
 		*(a + start) = *(a + end);
 		*(a + end) = swap;
 		start++;
