@@ -1,26 +1,31 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * rot13 - change letter
- * @s: analiz string
- * Return: String with letter
+ * rot13 - encodes a string using rot13
+ * @str: the string to encode
+ *
+ * Return: encode string
  */
-char *rot13(char *s)
+char *rot13(char *str)
 {
-	char x[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char rot[] = "MnopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKL";
-	int y = 0, z;
+	int i, j;
 
-	while (*(s + y) != '\0')
+	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		for (z = 0; z <= 51; z++)
+		j = 0;
+		while (alpha[j] != '\0')
 		{
-			if (*(s + y) == x[z])
+			if (str[i] == alpha[j])
 			{
-				*(s + y) = rot[z];
+				str[i] = rot[j];
 				break;
 			}
+			j++;
 		}
-	y++;
+		i++;
 	}
-	return (s);
+	return (str);
 }
