@@ -3,6 +3,7 @@
 /**
  * main - causes an infinite loop.
  * Return: 0
+ * postitive_or_negative: function similar to
  */
 
 int main(void)
