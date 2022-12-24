@@ -1,28 +1,24 @@
-#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - tests function an integer is + or -
- * Return: 0 always
+ * main - causes an infinite loop
+ * Return: 0
  */
 
-inat main(void)
+int main(void)
 {
-	int n;
+	int i;
 
-	srand(time(0));
-	n = i;
-	if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
-	else if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else
-		printf("%d is zero\n", n);
+	printf("Infinite loop incoming :(\n");
+
+	i = 0;
+	/*
+	 * while (i < 10)
+	 *{
+	 *	putchar(i);
+	 *}
+	 */
+	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
