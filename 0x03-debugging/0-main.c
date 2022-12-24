@@ -29,7 +29,6 @@ int main(void)
 	}
 	else
 		printf("%d is zero\n", n);
-
 	return (0);
 }
 }
@@ -43,6 +42,5 @@ int main(void)
 
 	j = 0;
 	positive_or_negative(j);
-
 	return (0);
 }
