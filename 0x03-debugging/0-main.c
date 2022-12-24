@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
 void positive_or_negative(int i)
 {
@@ -10,7 +11,7 @@ int main(void)
  * main - tests function an integer is + or -
  * positive_or_negative - test for + or -
  * Description: i think iy may need here
- * Return: 0 always
+ * Return: 0 always.
  */
 
 int main(void)
