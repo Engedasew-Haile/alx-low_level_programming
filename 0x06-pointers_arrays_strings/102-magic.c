@@ -10,6 +10,9 @@ a[2] = 98;
 p = &n;
 /**
  * main- Entrey point
+ * @a: for new line
+ * @p: not allowed to modify p
+ * @,: not allowed to use ,
  * Remember: below
  * - you are not allowed to use a
  * - you are not allowed to modify p
@@ -17,7 +20,8 @@ p = &n;
  * - only one statement
  * Return: 0 always
  */
-p[5] = 98;
+
+;
 /* ...so that this prints 98\n */
 printf("a[2] = %d", a[2]);
 return (0);
