@@ -12,6 +12,7 @@ int *p;
 a[2] = 1024;
 p = &n;
 /**
+ * main - entry point
  * Return: 0 always
  * write your line of code here...
  * Remember:
@@ -20,7 +21,6 @@ p = &n;
  * - only one statement
  * - you are not allowed to code anything else than this line of code
  * @a: use the variable a in your new line
- * main - point
  */
 
 /* ...so that this prints 98\n */
