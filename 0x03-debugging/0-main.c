@@ -3,6 +3,7 @@
 /**
  * main - entry points
  * Return: 0 always
+ * positive_or_negative: test numbers + and -
  */
 int main(void)
 {
