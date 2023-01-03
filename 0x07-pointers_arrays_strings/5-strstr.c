@@ -3,8 +3,8 @@
 
 /**
  * _strstr - function that locates a substring
- * @haystack: char array
- * @needle: char array
+ * @haystack: string
+ * @needle: string
  * Return: return 0
  */
 
