@@ -3,7 +3,7 @@
 
 /**
  * _strstr - function that locates a substring
- * Return: array to the beginning of the located substring
+ * Return: 0
  * @haystack: char array
  * @needle: char array (keyword)
  */
