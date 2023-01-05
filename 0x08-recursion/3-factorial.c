@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * factorial - factorial unmber
  * @n: number
