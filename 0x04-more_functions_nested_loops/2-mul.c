@@ -2,7 +2,7 @@
 
 /**
  * mul - input
- * Description: multiplies 2 num
+ * Description: multiplies two num
  * @a: first num
  * @b: second num
  * Return: the answer
