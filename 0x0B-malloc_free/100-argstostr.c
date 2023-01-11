@@ -9,10 +9,10 @@
  * Return: arguments as strings
  */
 
-char *argstostr(int ac, char **av)
+char *argstostr(int ac, char **av[20])
 {
 	int size, count, count1, count2 = 0;
-	char *ptr;
+	char *ptr[40];
 
 	if (ac == 0 || av == NULL)
 	{
