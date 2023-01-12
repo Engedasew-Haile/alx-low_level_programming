@@ -89,7 +89,7 @@ void *_calloc(unsigned int number, unsigned int size)
 int main(int argc, char **argv)
 {
 	char *n1, *n2, *multi_res;
-	unsigned int l = 0, l1 = 0, l2 = 0, a, b, t = 0, c = 0, ten = 0;
+	unsigned int l = 0, l1 = 0, l2 = 0, a, b, t = 0, c = 0, ten = 0, i;
 
 	if (argc < 3)
 	{
@@ -112,7 +112,7 @@ int main(int argc, char **argv)
 		print_string("Error");
 		exit(98);
 	}
-	for (int i = 0; i < l1; i++, ten++)
+	for (i = 0; i < l1; i++, ten++)
 	{
 		for (c = 0, b = 0; b < l2; b++)
 		{
