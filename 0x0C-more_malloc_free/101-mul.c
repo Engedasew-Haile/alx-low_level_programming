@@ -112,7 +112,7 @@ int main(int argc, char **argv)
 		print_string("Error");
 		exit(98);
 	}
-	for (i = 0; i < l1; i++, ten++)
+	for (int i = 0; i < l1; i++, ten++)
 	{
 		for (c = 0, b = 0; b < l2; b++)
 		{
