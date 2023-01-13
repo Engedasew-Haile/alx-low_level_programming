@@ -4,51 +4,45 @@
 
 /**
  * string_nconcat - function with two strings
- * @s1: string one
- * @s2: string tw
- * @n: size
+ * @s1: destination for concatnation
+ * @s2: source, string
+ * @n:size
  * Return: 0
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *k;
-	unsigned int a, b, c, d;
+	char *ptr;
+	int count, count1, l1, l2;
+	int sign = n;
 
-	if (s1 == 0)
-	{	
+	if (s1 == NULL)
 		s1 = "";
-	}
-	if (s2 == 0)
-	{
+	if (s2 == NULL)
 		s2 = "";
-		for (a = 0; s1[a] != '\0'; a++)
-		{
+
+	for (l1 = 0; s1[l1] != '\0'; l1++)
 		;
-		}
-		for (b = 0; s2[b] != '\0'; b++)
-		{
+	for (l2 = 0; s2[l2] != '\0'; l2++)
 		;
-		}
-	}
-	if (n > b)
+
+	if (sign >= l2)
 	{
-		k = malloc((a + b + 1) * sizeof(char));
+		sign = l2;
+		ptr = malloc(sizeof(char) * (l1 + l2 + 1));
 	}
 	else
-		k = malloc((a + n + 1) * sizeof(char));
-	if (k == 0)
-	{
+		ptr = malloc(sizeof(char) * (l1 + n + 1));
+	if (ptr == NULL)
 		return (NULL);
-	}
-	for (c = 0; c < a; c++)
+	for (count = 0; count < l1; count++)
 	{
-		k[c] = s1[c];
+		ptr[count] = s1[count];
 	}
-	for (d = 0; d < n && d < b; d++, c++)
+	for (count1 = 0; count1 < sign; count1++)
 	{
-		k[c] = s2[d];
+		ptr[count++] = s2[count1];
 	}
-	k[c] = '\0';
-	return (k);
+	ptr[count++] = '\0';
+	return (ptr);
 }
