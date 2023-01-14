@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <limits.h>
 #include <stdlib.h>
+#include "is_digit.c"
+
+int is_digit(char c);
 
 /**
  * str_len - finds string length
@@ -63,20 +66,6 @@ void add_arrays(int *mul_result, int *sum_result, int len_r)
 		i++;
 		len_r2--;
 	}
-}
-
-/**
- * is_digit - checks for digits
- *  @c: input char
- *  Return: 0
- */
-
-int is_digit(char c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-	printf("Error\n");
-	return (0);
 }
 
 /**
