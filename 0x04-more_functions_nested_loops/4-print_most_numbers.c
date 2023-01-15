@@ -11,7 +11,7 @@ void print_most_numbers(void)
 
 	for (a = 0; a < 9; a++)
 	{
-		a == 'a' || a == '4' ? _putchar(++a) : _putchar(a);
+		a == '2' || a == '4' ? _putchar(++a) : _putchar(a);
 	}
 	_putchar('\n');
 }
