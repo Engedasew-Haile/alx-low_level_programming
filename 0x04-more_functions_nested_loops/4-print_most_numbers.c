@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
+int _putchar (char a);
+
 /**
  * print_most_numbers - prints digits 0 - 9, not to 2&4
  * Return: void
