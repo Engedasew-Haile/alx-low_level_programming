@@ -18,7 +18,6 @@ int number(char *str)
 		{
 			for (; str[a] != ' ' && str[a] != '\0'; a++)
 				str++;
-			num++;
 		}
 	}
 	return (num);
@@ -75,10 +74,13 @@ char **strtow(char *str)
 			{
 				words[b][c] = *found_word;
 				found_word++;
-				c++;
 
 			}
 			words[b][c] = '\0';
+			b++;
+			c = 0;
+			length = 0;
+			str++;
 		}
 	}
 	return (words);
