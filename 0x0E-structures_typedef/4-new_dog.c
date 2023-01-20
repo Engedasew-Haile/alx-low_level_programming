@@ -6,7 +6,7 @@
  * @name: str name of pet
  * @age: age of pet
  * @owner: str owner of pet
- * Return: p
+ * Return: NULL
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -31,5 +31,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	p->name = name;
 	p->age = age;
 	p->owner = owner;
-	return (0);
+	return (NULL);
 }
