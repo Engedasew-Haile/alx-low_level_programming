@@ -6,6 +6,9 @@
  * @array: array of integers
  * @size: size of array
  * @action: function pointer
+ * print_elem - prints an integer
+ * @elem: the integer to print
+ * Return: Always 0
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
