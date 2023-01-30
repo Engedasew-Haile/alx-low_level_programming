@@ -8,10 +8,12 @@
  * @action: function pointer
  * print_elem - prints an integer
  * @elem: the integer to print
+ * Description: this function iterate an array)?
  * Return: Always 0
  */
 
-void array_iterator(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array,
+	size_t size, void (*action)(int))
 {
 	size_t i;
 
