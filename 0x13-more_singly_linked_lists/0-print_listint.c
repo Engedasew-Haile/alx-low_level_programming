@@ -2,11 +2,12 @@
 #include "lists.h"
 
 /*
- * print_listint - print list
+ * size_t - print_listint - entry list
+ * Description: 'the program's description'
  * print_listint - description prints all the elements of a listint_t
  * @h: list
  *
- * Return: size_t
+ * Return: nodes
  *
  */
 
@@ -16,10 +17,9 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
+		printf("%d\n", h->n);
 		nodes++;
-		printf("%d", h->n);
 		h = h->next;
-		printf("\n");
 	}
 	return (nodes);
 }
