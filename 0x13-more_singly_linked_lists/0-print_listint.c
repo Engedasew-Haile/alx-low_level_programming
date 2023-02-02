@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /*
- * size_t print_listi - prints all elements of a linked list
+ * print_listi - prints all elements of a linked list
  * @h: linked list of type listint_t to prints
  * main - Entry point
  * Return: number of nodes
