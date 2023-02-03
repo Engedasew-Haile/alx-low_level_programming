@@ -27,5 +27,5 @@ unsigned int binary_to_uint(const char *b) /*binary_to_uint - text gose here */
 		num += (b[len] - '0') * mult;
 		mult *= 2;
 	}
-	return (0);
+	return (num);
 }
