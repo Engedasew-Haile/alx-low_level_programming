@@ -10,7 +10,7 @@
 
 unsigned int binary_to_uint(const char *b) /*binary_to_uint - text gose here */
 {
-	unsigned int num = 0, mult = 1;
+	unsigned int num = 0, mult = 2;
 	int len;
 
 	if (b == 0)
