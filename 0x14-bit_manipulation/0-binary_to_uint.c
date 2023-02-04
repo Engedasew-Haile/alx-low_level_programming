@@ -13,14 +13,20 @@ unsigned int binary_to_uint(const char *b) /*binary_to_uint - text gose here */
 	unsigned int res = 0, mult = 1;
 	int len;
 
-	if (!b)
+	if (b == '\0')
 		return (0);
 
-	for (len = 0; b[len]; len)
+	for (len = 0; b[len];)
+		len++;
+
+	for (len -= 1; len >= 0; len--)
 	{
-		if (b[len] < '0' || b[len] > '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
-		res = 2 * res + (b[len] - '0');
+
+		num += (b[len] - '0') * mult;
+		mult *= 2;
 	}
-	return (res);
+
+	return (num);
 }
