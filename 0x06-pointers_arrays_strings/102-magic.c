@@ -2,8 +2,12 @@
 #include <stdio.h>
 /**
  * main - entry point
+ * @p: text
  * Return: 0
  */
+
+*(p + 5) = 98;
+
 int main(void)
 {
 int n;
@@ -26,7 +30,7 @@ p = &n;
 
 /* ...so that this prints 98\n */
 
-*(p + 5) = 98;
+
 printf("a[2]  %d\n", a[2]);
 return (0);
 }
