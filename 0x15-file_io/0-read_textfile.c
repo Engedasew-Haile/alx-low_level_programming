@@ -6,6 +6,7 @@
  * read_textfile - that reads a text file and prints
  * @filename: variable pointer
  * Description: Write a function that reads a text file and prints it
+ * @letters: des will ber here
  * Return: the actual number of letters it could read and print, 0 otherwise
  */
 
