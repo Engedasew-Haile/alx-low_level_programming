@@ -106,5 +106,4 @@ int main(int argc, const char *argv[])
 	if ((_close(fd_in) | _close(fd_out)) < 0)
 		exit(100);
 	return (0);
-
 }
