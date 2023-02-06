@@ -2,9 +2,7 @@
 #include "lists.h"
 
 /**
- * main - Entry point
- * pop_listint - text
- * pop_listint - delete the head node and return it's value
+ * pop_listint - get the first element of a linked list and remove it
  * @head: pointer of a pointer to a listint_t
  * Return: value of the delete node (INT)
  */
