@@ -1,9 +1,12 @@
 #ifndef FILE_IO
 #define FILE_IO
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <fcnt1.h>
+#include <fcntl.h>
 #include <unistd.h>
 
 int _putchar(char c);
