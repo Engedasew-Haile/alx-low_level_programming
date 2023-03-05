@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "lists.h"
 
-/*
+/**
  * delete_nodeint_at_index - delete node at index
  * @head: head node
  *
@@ -36,7 +36,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	return (1);
 }
 
-/*
+/**
  * get_nodeint_at_index - get node at index
  * @head: head node
  * @index: index node
