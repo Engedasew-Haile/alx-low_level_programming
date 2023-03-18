@@ -1,5 +1,4 @@
 #include "lists.h"
-#inclide <stdio.h>
 
 /**
  * print_dlistint - Prints all the nodes of ll
