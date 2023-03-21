@@ -6,20 +6,22 @@
  * Return: The new node
  */
 
+dlistint_t *add_dnodeint(dlistint_t **head, const int int n)
+{
+	dlistint_t *new_begnode;
 
-<<<<<<< HEAD
-=======
-	if (new_mem == NULL)
+	new_begnode = malloc(sizeof(dlistint_t));
+
+	if (new_begnode == NULL)
 		return (NULL);
 
-	new_mem->n = n;
-	new_mem->prev = NULL;
-	new_mem->next = *head;
+	new_begnode->n = n;
+	new_begnode->prev = NULL;
+	new_begnode->next = *head;
 
 	if (*head != NULL)
-		(*head)->prev = new_mem;
-	*head = new_mem;
+		(*head)->prev = new_begnode;
+	*head = new_begnode;
 
-	return (new_mem);
+	return (new_begnode);
 }
->>>>>>> e904844f6cc4f590da950a6845f7f451a0af3ffd
