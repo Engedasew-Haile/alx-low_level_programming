@@ -1,10 +1,12 @@
 #include "lists.h"
+
 /**
  * add_dnodeint_end - Add a node in the tail
- * @head: Pointer to direction of the head
- * @n: The data integer
- * Return: The direction of the tail node
+ * @head: pointer to direction of head
+ * @n: data int
+ * Return: direction of tail node
  */
+
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new_mem, *last_dir;
