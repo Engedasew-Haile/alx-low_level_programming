@@ -119,7 +119,7 @@ shash_node_t *set_spair_front(shash_table_t *ht, const char *key,
  *
  * Return: Always 1.
  */
-int slist_set_first(shash_table_t *ht, shash_node_t *node)
+/* int slist_set_first(shash_table_t *ht, shash_node_t *node) */
 {
 	node->sprev = NULL;
 	node->snext = NULL;
