@@ -117,4 +117,12 @@ void shash_table_print_rev(const shash_table_t *ht);
 
 void shash_table_delete(shash_table_t *ht);
 
+int slist_set_first(shash_table_t *ht, shash_node_t *node)
+{
+	node->sprev = NULL;
+	node->snext = NULL;
+	ht->shead = node;
+	ht->stail = node;
+	return (1);
+}
 #endif
